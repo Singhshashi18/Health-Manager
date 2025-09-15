@@ -1,4 +1,4 @@
-
+ 
 export const getDiagnosis = async (symptoms: string): Promise<string> => {
   const res = await fetch("http://localhost:3001/diagnose", {
     method: "POST",
