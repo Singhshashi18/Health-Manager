@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { getDiagnosis } from "../services/api";
 
