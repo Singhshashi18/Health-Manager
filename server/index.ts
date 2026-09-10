@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import { ChatOpenAI } from "@langchain/openai";
 import { HumanMessage } from "@langchain/core/messages";
 
-dotenv.config();
+dotenv.config();v
 const app = express();
 app.use(cors());
 app.use(express.json());
